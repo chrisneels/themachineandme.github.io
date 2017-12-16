@@ -10,13 +10,14 @@ body {
 
 h1, h2 {
   font-family: 'Cutive Mono', monospace;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 p {
   font-family: 'Open Sans', sans-serif;
   margin-bottom: 14px;
 }
+
 
 
 /* Body Elements */
@@ -75,23 +76,39 @@ footer {
 
 .exhibit-image {
   width: 100%;
-  mid-width: 100%;
 }
 
+
+/* Homepage: Formatting for tiles*/ 
 .tile-image {
-  min-width: 100%;
   width: auto;
-  height: 100%;
   overflow: hidden;
 }
 
-/* Dynamic Height of Tiles */
-.box {
-  padding-top: 62.5%; /*8x5 aspect ratio*/
+.is-parent {
+  filter: saturate(.4);
+      -webkit-filter: saturate(.4);
 }
 
-/* Additional padding for text below box */
-.padtext {
-  padding: 1.25rem;
+.is-parent:hover, .is-parent:focus {
+  filter: brightness(.8);
+      -webkit-filter: brightness(.8);
+}
+
+.is-parent a p {
+  padding-top: 0.5rem;
+  padding-bottom:0rem;
+  margin-bottom: 2.5rem;
+}
+
+.tile-text {
+  font-family: 'Cutive Mono', monospace;
+  font-weight: 400;
+  color
+}
+
+/* Dynamic Height of Tiles
+.is-child {
+  padding-top: 10%; /*8x5 aspect ratio*/
 }
 
