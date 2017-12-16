@@ -39,14 +39,11 @@ p {
   width: 70%;
 }
 
-@media (max-width: 1000px) {
-  .site-body {
-    margin-left: 10%;
-    margin-right: 10%;
-  }
+.section-last {
+  margin-top: 70px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
   .site-body {
     margin-left: 5%;
     margin-right: 5%;
@@ -54,12 +51,20 @@ p {
 
   .exhibit-frame {
     width: 100%;
+  }  
+}
+
+/* Special exception for home page for mobile */
+@media (max-width: 800px) {
+  .subtitle.is-3 {
+    font-size: 1.5rem;
   }
 }
 
-.section-last {
-  margin-top: 70px;
-}
+
+
+
+
 
 footer {
   padding: 72px 0 60px;
