@@ -29,12 +29,14 @@ p {
   margin-bottom: 70px;
 }
 
-.site-body-sides {
-
-}
-
 .site-body-home {
   margin-top: 15%;
+}
+
+.exhibit-frame {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  width: 70%;
 }
 
 @media (max-width: 1000px) {
@@ -49,6 +51,10 @@ p {
     margin-left: 5%;
     margin-right: 5%;
   }
+
+  .exhibit-frame {
+    width: 100%;
+  }
 }
 
 .section-last {
@@ -57,12 +63,6 @@ p {
 
 footer {
   padding: 72px 0 60px;
-}
-
-.exhibit-frame {
-  padding-top: 40px;
-  padding-bottom: 20px;
-  width: 66%;
 }
 
 .exhibit-video {
