@@ -1,0 +1,97 @@
+/*!
+ * Polis Finance
+ */
+
+
+/* Fonts */
+body {
+  color: #333333;
+}
+
+h1, h2 {
+  font-family: 'Cutive Mono', monospace;
+  font-weight: 600;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 14px;
+}
+
+
+/* Body Elements */
+.site-body {
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-left: 0px;
+  margin-bottom: 70px;
+}
+
+.site-body-sides {
+
+}
+
+.site-body-home {
+  margin-top: 15%;
+}
+
+@media (max-width: 1000px) {
+  .site-body {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+@media (max-width: 500px) {
+  .site-body {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+.section-last {
+  margin-top: 70px;
+}
+
+footer {
+  padding: 72px 0 60px;
+}
+
+.exhibit-frame {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  width: 66%;
+}
+
+.exhibit-video {
+  width: 100%;
+  min-width: 100%;
+  overflow: hidden;
+  .tp-video-play-button {display: none !important};
+  .rev_slider video {pointer-events: none};
+  .rev_slider video::-webkit-media-controls {display: none !important};
+}
+
+.exhibit-image {
+  width: 100%;
+  mid-width: 100%;
+}
+
+.tile-image {
+  min-width: 100%;
+  width: auto;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Dynamic Height of Tiles */
+.box {
+  padding-top: 62.5%; /*8x5 aspect ratio*/
+}
+
+/* Additional padding for text below box */
+.padtext {
+  padding: 1.25rem;
+}
+
